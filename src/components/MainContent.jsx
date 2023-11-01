@@ -185,11 +185,11 @@ const MainContent = () => {
   return (
     <>
       <Grid container>
-        <Grid item xs={6}>
+        <Grid className="custom-class" item xs={6}>
           <h2>{currentDate}</h2>
           <h2>{selectedCity.displayName}</h2>
         </Grid>
-        <Grid item xs={6}>
+        <Grid className="custom-class" item xs={6}>
           <h2>متبقي حتي صلاه {prayersArray[nextPrayerIndex].displayName}</h2>
           <h2>{rTime}</h2>
         </Grid>
