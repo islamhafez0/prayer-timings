@@ -76,8 +76,8 @@ label {
   width: 20%;
 }
 @media screen and (max-width: 590px) {
-  .css-1nrlq1o-MuiFormControl-root {
-    width: 70%;
+  .select-holder {
+    width: 70% !important;
   }
   .css-11lq3yg-MuiGrid-root {
     text-align: center;

@@ -232,7 +232,7 @@ const MainContent = () => {
         justifyContent={"center"}
         style={{ marginTop: "40px" }}
       >
-        <FormControl>
+        <FormControl className="select-holder" style={{ width: "20%" }}>
           <InputLabel id="demo-simple-select-label">
             <span style={{ color: "white" }}>المدينة</span>
           </InputLabel>
